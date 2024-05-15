@@ -39,10 +39,28 @@
 
 
     <main>
-        <img src="mt_fuji_img.jpg" alt="" width="800px" class="main-img">
+        <img src="mt_fuji_img.jpg" alt="" width="1000px" class="main-img">
+        <script>
+            const nombre = prompt("Cual es tu nombre?");
+            const volcan = prompt("Hola" + " "+ nombre + "!" + " " + "Cuál es el nombre de este volcán?");
+            if (volcan !== null) {
+            document.write("El nombre de este volcán es" + " "+volcan);
+            } else {
+            document.write("El usuario no escribió el nombre del volcán");
+            }
+        </script>
         
-        
+        <script>
+            let respuesta = confirm("¿Acepta si vives en Japón?");
+            if (respuesta) {
+            alert("Bienvenido! Aquí encontrarás ayuda para la gente que tiene dificultades adaptándose a la vida en Japón");
+            } else {
+            alert("El usuario hizo clic en Cancelar.");
+            }
+            </script>
+
         <h1>Terapia Psicológica para latinos viviendo en Japón</h1>
+        
         <p>
             Lorem ipsum dolor sit amet. Aut nobis quia eum odit cumque et impedit quasi! Et beatae ullam non deserunt omnis quo ratione animi est esse debitis sed nihil voluptatum ea dolor sunt.
 

@@ -11,7 +11,7 @@ nav {
     text-align: left; /*texto en su box*/
     align-items: center; /*de arriba a abajo*/
     padding: 0px;
-    width: 1500px;
+    width: 1200px;
     background-color: antiquewhite;
   }
 
@@ -22,14 +22,18 @@ body{
 
 .top-p {justify-content: left; align-items: center;}
 
-.contact {display: flex;
+.contact {
+    display: flex;
     gap: 50px; /*entre cada link*/
     list-style: none;
-    justify-content: right;;
+    justify-content: right;
+    float: right;
 }
 
 .main-img {
-    margin-left: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 5px;
 }
 
 .contact > li > a {
@@ -44,7 +48,7 @@ body{
   }
 
 .container {
-    padding-top: 20px;
+    margin-top: 50px;
     column-count: 3;
     column-gap: 20px;
 }
@@ -54,3 +58,4 @@ body{
     display: flex; 
     list-style-type: none;
 }
+
